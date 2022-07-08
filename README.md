@@ -1,1 +1,1 @@
-[cube](cube.kennan.tech)
+[cube](https://cube.kennan.tech)
