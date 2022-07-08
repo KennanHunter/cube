@@ -8,9 +8,12 @@ const config = {
   preprocess: preprocess(),
 
   kit: {
-    adapter: adapter({ out: "build" }),
+    adapter: adapter(),
     alias: {
       $threejsm: "node_modules/three/examples/jsm",
+    },
+    prerender: {
+      default: true,
     },
   },
 };
